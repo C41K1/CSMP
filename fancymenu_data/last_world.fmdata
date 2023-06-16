@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/W10/curseforge/minecraft/Instances/CSMP/saves/Lobby
+}
+
