@@ -19,8 +19,25 @@ customization {
 }
 
 customization {
-  identifier = %id=0%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -12
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/background.png
+  backgroundnormal = fancymenu_data/botao.png
 }
 
 customization {
@@ -38,7 +55,7 @@ customization {
   orientation = mid-centered
   x = -100
   action = movebutton
-  y = 33
+  y = 12
 }
 
 customization {
@@ -50,11 +67,17 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = Opções
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = fancymenu_data/background.png
-  backgroundnormal = fancymenu_data/botao.png
+  backgroundhovered = fancymenu_data/botao.png
+  backgroundnormal = fancymenu_data/botaoapertado.png
 }
 
 customization {
@@ -62,7 +85,7 @@ customization {
   orientation = mid-centered
   x = -100
   action = movebutton
-  y = 57
+  y = 36
 }
 
 customization {
@@ -74,16 +97,44 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttonlabel
+  value = Sair do Jogo
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = fancymenu_data/background.png
-  backgroundnormal = fancymenu_data/botao.png
+  backgroundhovered = fancymenu_data/botao.png
+  backgroundnormal = fancymenu_data/botaoapertado.png
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -36
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/background.png
+  backgroundnormal = fancymenu_data/botao.png
 }
 
 customization {
@@ -181,20 +232,46 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = fancymenu_data/background.png
-  backgroundnormal = fancymenu_data/botao.png
+  slim = false
+  auto_skin = false
+  scale = 30
+  showname = true
+  follow_mouse = true
+  capeurl = http://textures.minecraft.net/texture/f9a76537647989f9a0b6d001e320dac591c359e9e61a31f4ce11c88f207f0ad4
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = c69adf72-fa5d-4b26-9dc3-dc54706968ed1687064972033
+  playername = Caiki
+  bodyrotationx = 0.0
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 54
+  orientation = mid-centered
+  copy_client_player = true
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/7fdee20150c7bf647fb07fc824b779dda408a12ba64d6e0748c707f32231caae
+  crouching = false
+  x = -177
+  width = 18
+  parrot_left_shoulder = false
+  y = -11
+  parrot = false
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  loopbackgroundanimations = true
+  orientation = mid-centered
   restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = fancymenu_data/background.png
-  backgroundnormal = fancymenu_data/botao.png
+  buttonaction = joinserver;playcsmp.enxada.host%btnaction_splitter_fm%
+  backgroundhovered = fancymenu_data/botao.png
+  label = Jogar
+  loopbackgroundanimations = true
+  x = -100
+  width = 200
+  action = addbutton
+  actionid = fd426c5f-b965-422b-aeed-557568055c3f1687065240115
+  y = -12
+  backgroundnormal = fancymenu_data/botaoapertado.png
+  height = 20
 }
 

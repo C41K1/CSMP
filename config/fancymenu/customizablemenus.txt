@@ -3,9 +3,6 @@ type = customizablemenus
 net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen {
 }
 
-net.minecraft.client.gui.screens.TitleScreen {
-}
-
 net.minecraft.client.gui.screens.GenericDirtMessageScreen {
 }
 
@@ -19,5 +16,23 @@ dev.ftb.mods.ftblibrary.ui.ScreenWrapper {
 }
 
 com.github.NGoedix.watchvideo.client.gui.VideoScreen {
+}
+
+com.tom.cpm.client.GuiImpl {
+}
+
+net.minecraft.client.gui.screens.TitleScreen {
+}
+
+net.minecraft.client.gui.screens.ReceivingLevelScreen {
+}
+
+net.minecraft.client.gui.screens.ConnectScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.InventoryScreen {
+}
+
+net.minecraft.client.gui.screens.PauseScreen {
 }
 
